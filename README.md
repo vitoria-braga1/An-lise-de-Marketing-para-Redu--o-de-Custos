@@ -1,82 +1,57 @@
-# 📊 Análise de Dados de Marketing para Reduçao de Custo
+# 📈 Marketing Analytics — Customer Acquisition & ROI
 
-## Objetivo do Projeto
-O objetivo deste projeto é analisar o comportamento dos usuários de um produto digital a partir de dados de visitas, pedidos e custos de marketing.  
-A análise busca responder perguntas importantes para o negócio, como:
+## Project Overview
 
-- Quantos usuários utilizam o produto ao longo do tempo (DAU, WAU, MAU).
-- Quantas sessões os usuários realizam.
-- Quanto tempo os usuários passam no site.
-- Qual é a taxa de retenção de usuários por coorte.
-- Quanto tempo leva para um usuário realizar a primeira compra.
-- Qual é o valor do cliente ao longo do tempo (LTV).
-- Quanto custa adquirir um cliente (CAC).
-- Se os investimentos em marketing geram retorno (ROI).
+This project analyzes user activity, orders, and marketing costs to evaluate customer acquisition performance and the sustainability of marketing investments.
 
----
+## Business Questions
 
-##  Resultado
-A análise permitiu identificar padrões importantes de comportamento dos usuários e avaliar a eficiência das campanhas de marketing.
+- How does user activity evolve over time?
+- What is the retention rate by cohort?
+- How long does it take users to make their first purchase?
+- What is customer Lifetime Value (LTV)?
+- What is Customer Acquisition Cost (CAC)?
+- Do marketing investments generate a positive return (ROI)?
 
-Entre os principais resultados:
+## Key Metrics
 
-- Identificação da evolução de usuários ativos ao longo do tempo.
-- Análise da retenção de usuários através de **coortes mensais**.
-- Cálculo do tempo médio entre a primeira visita e a primeira compra.
-- Estimativa do **Lifetime Value (LTV)** dos clientes.
-- Comparação entre **LTV e CAC** para avaliar a viabilidade das estratégias de marketing.
-- Avaliação do **ROI** das campanhas de aquisição.
+- DAU, WAU and MAU
+- User sessions
+- Cohort retention
+- Time to first purchase
+- LTV — Lifetime Value
+- CAC — Customer Acquisition Cost
+- ROI — Return on Investment
 
-Essas análises ajudam a entender se o crescimento do produto é sustentável e quais canais de marketing são mais eficientes.
+## Key Findings
 
----
+The analysis evaluated user growth, cohort retention, time to first purchase, LTV, CAC and ROI to assess marketing efficiency and the sustainability of customer acquisition strategies.
 
-## Ferramentas Utilizadas
+## Tools & Skills
 
-- **Python**
-- **Pandas** – manipulação e análise de dados
-- **NumPy** – cálculos numéricos
-- **Matplotlib** – visualização de dados
-- **Seaborn** – gráficos estatísticos
-- **Jupyter Notebook** – desenvolvimento da análise
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Data cleaning and preprocessing
+- Product and marketing metrics
+- Cohort analysis
+- Business analytics
 
----
+## What I Practiced
 
-## O que eu Aprendi
+- Cleaning and preparing datasets
+- Creating product and marketing metrics
+- Cohort-based retention analysis
+- Calculating and interpreting LTV, CAC and ROI
+- Visualizing business performance
+- Translating analytical results into business insights
 
-Durante este projeto, desenvolvi várias habilidades importantes em análise de dados:
+## Future Improvements
 
-### Análise de Dados
-- Limpeza e pré-processamento de dados
-- Manipulação de datasets grandes com **Pandas**
-- Criação de métricas de produto e marketing
-
-### Métricas de Produto
-- DAU, WAU e MAU
-- Sessões de usuários
-- Retenção por **coorte**
-
-### Métricas de Negócio
-- **CAC (Customer Acquisition Cost)**
-- **LTV (Lifetime Value)**
-- **ROI (Return on Investment)**
-
-### Visualização de Dados
-- Construção de gráficos para interpretar resultados
-- Uso de **Matplotlib** e **Seaborn** para análise exploratória
-
----
-
-## Possíveis Melhorias
-
-Algumas melhorias que podem ser feitas no projeto incluem:
-
-- Criar **mais visualizações gráficas** para facilitar a interpretação dos dados.
-- Aplicar **modelos de previsão** para estimar crescimento de usuários ou receita futura.
-- Automatizar o processo de análise com **scripts reutilizáveis**.
-- Criar um **dashboard interativo** usando ferramentas como **Tableau, Power BI ou Streamlit**.
-- Explorar mais profundamente a performance de cada canal de marketing.
-
----
-
-✍️ Este projeto faz parte do meu processo de aprendizado em **Análise de Dados**, aplicando conceitos de métricas de produto e marketing para gerar insights de negócio.
+- Add interactive dashboards using Tableau or Power BI.
+- Automate repeatable analysis steps.
+- Explore predictive approaches for user growth and revenue.
+- Analyze marketing-channel performance in greater depth.
